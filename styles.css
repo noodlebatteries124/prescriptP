@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "code";
+  src: url("PixelifySans-Regular.woff2") format("woff2"),
+       url("PixelifySans-Regular.woff") format("woff");
+}
+
+#letters{
+    display:flex; 
+    gap:10px; 
+    font-size:40px; 
+    font-family:"code", monospace;
+    color: #99caff; 
+}
+
+.containingit{
+    display:flex; 
+    flex-direction:column; 
+    align-items:center; 
+    justify-content:center; 
+    height:100vh; 
+    gap:20px;
+}
+body{
+    background-color: rgb(15, 15, 15);
+    background-image: url("bg.png");
+    background-position: top;
+    background-repeat: no-repeat;
+}
