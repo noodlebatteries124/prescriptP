@@ -26,3 +26,7 @@ body{
     background-position: top;
     background-repeat: no-repeat;
 }
+
+audio{
+    margin: 10px;
+}
