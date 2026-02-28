@@ -10,5 +10,13 @@
     <audio id="player" src="saikai.mpeg" loop autoplay></audio>
     <div id="taskingit"></div>
     <script src="betterscript.js"></script>
+    <script>
+    window.addEventListener('click', () => {
+        const audio = document.getElementById('player');
+        if (audio.paused) {
+            audio.play().catch(error => console.log("Playback failed:", error));
+        }
+    }, { once: true });
+    </script>
 </body>
 </html>
