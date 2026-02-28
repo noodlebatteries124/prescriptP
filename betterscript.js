@@ -12,7 +12,11 @@ const phraseBank = [
     "_WIN_10_CLASHES_WITH_WRATH_SKILLS_",
     "_SINNERS_WITH_THE_HIGHEST_SPEED_TARGET_THE_SLOWEST_ENEMY_SLOT",
     "_YOU_SMELL_",
-    "_EAT_ONE_LUNACY_"
+    "_EAT_ONE_LUNACY_",
+    "_SMILE_",
+    "_FROWN_",
+    "_LOWER_YOUR_CORTISOL_"
+    
 ];
 
 const charPool = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*()_=+".split("");
