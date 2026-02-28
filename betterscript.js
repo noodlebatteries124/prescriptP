@@ -34,6 +34,7 @@ function init() {
         <div class="containingit">
             <div id="letters"></div>
             <button id="taskButton">Task</button>
+            <button onclick="document.getElementById('player').play()">Saikai</button>
         </div>
     `;
     buildSpans(8); 
